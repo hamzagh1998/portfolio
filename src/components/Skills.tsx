@@ -21,7 +21,10 @@ const Skills: React.FC = () => {
       <h2 style={{ fontSize: 'clamp(2rem, 5vw, 2.5rem)', marginBottom: 'clamp(2rem, 8vw, 4rem)', textAlign: 'center' }}>Technical <span className="text-gradient">Skills</span></h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: '2rem' }}>
         {skillCategories.map((cat, index) => (
-          <div key={index} className="glass" style={{ padding: 'var(--card-padding, 2rem)' }}>
+          <div key={index} className="glass reveal" style={{ 
+            padding: 'var(--card-padding, 2rem)',
+            transitionDelay: `${index * 0.15}s` 
+          }}>
             <h3 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: 'var(--accent-purple)' }}>{cat.title}</h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
               {cat.skills.map((skill, i) => (

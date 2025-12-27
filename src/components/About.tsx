@@ -15,11 +15,11 @@ const About: React.FC = () => {
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.5rem' }}>
-            <div className="glass" style={{ padding: '1.5rem', textAlign: 'center' }}>
+            <div className="glass reveal" style={{ padding: '1.5rem', textAlign: 'center', transitionDelay: '0.2s' }}>
               <h3 style={{ fontSize: '2rem', color: 'var(--accent-cyan)' }}>4+</h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--text-dim)' }}>Years Experience</p>
             </div>
-            <div className="glass" style={{ padding: '1.5rem', textAlign: 'center' }}>
+            <div className="glass reveal" style={{ padding: '1.5rem', textAlign: 'center', transitionDelay: '0.3s' }}>
               <h3 style={{ fontSize: '2rem', color: 'var(--accent-purple)' }}>10+</h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--text-dim)' }}>Projects Built</p>
             </div>

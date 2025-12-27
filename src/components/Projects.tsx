@@ -32,7 +32,13 @@ const Projects: React.FC = () => {
       <h2 style={{ fontSize: 'clamp(2rem, 5vw, 2.5rem)', marginBottom: 'clamp(2rem, 8vw, 4rem)', textAlign: 'center' }}>Featured <span className="text-gradient">Projects</span></h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))', gap: '2rem' }}>
         {projects.map((project, index) => (
-          <div key={index} className="glass card-hover" style={{ padding: 'var(--card-padding, 2rem)', display: 'flex', flexDirection: 'column', transition: 'var(--transition)' }}>
+          <div key={index} className="glass card-hover reveal" style={{ 
+            padding: 'var(--card-padding, 2rem)', 
+            display: 'flex', 
+            flexDirection: 'column', 
+            transition: 'var(--transition)',
+            transitionDelay: `${index * 0.1}s` 
+          }}>
             <div style={{ marginBottom: '1rem' }}>
               <span style={{ 
                 fontSize: '0.7rem', 

@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
           HI THERE, I'M HAMZA GHENIMI
         </h2>
         <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 5rem)', lineHeight: '1.1', marginBottom: '2rem' }}>
-          Full Stack <span className="text-gradient">AI Product</span> Engineer.
+          Full Stack <span className="text-gradient float" style={{ display: 'inline-block' }}>AI Product</span> Engineer.
         </h1>
         <p style={{ fontSize: 'clamp(1rem, 4vw, 1.25rem)', color: 'var(--text-dim)', marginBottom: '3rem', maxWidth: '600px' }}>
           Building scalable SaaS platforms and AI-driven applications with Next.js, FastAPI, and a passion for cutting-edge tech.
