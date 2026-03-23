@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '3rem' }}>
           <div>
             <p style={{ color: 'var(--text-dim)', marginBottom: '1.25rem', lineHeight: 1.8 }}>
-              I’m a product-minded engineer with 4+ years of experience building SaaS platforms, internal tools, and AI-enhanced applications. My strongest work sits at the intersection of backend systems, product delivery, and workflow automation.
+              I’m a engineer focused on SaaS products with 4+ years of experience building SaaS platforms, internal tools, and AI-enhanced applications. My strongest work sits at the intersection of backend systems, product delivery, and workflow automation.
             </p>
             <p style={{ color: 'var(--text-dim)', marginBottom: '1.25rem', lineHeight: 1.8 }}>
               I’m most useful in teams that need someone who can move between APIs, integrations, admin systems, and user-facing features without losing sight of reliability or product quality.

@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             fontWeight: 600,
           }}
         >
-          Hamza Ghenimi — Backend / Full-Stack Product Engineer
+          Hamza Ghenimi — Backend / Full-Stack Engineer
         </p>
         <h1
           style={{
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           Strongest in TypeScript, Node.js, React, Next.js, FastAPI, Bun, APIs, internal tooling, SaaS workflows, and production use of AI where it improves real product behavior.
         </p>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '2rem' }}>
-          {['TypeScript', 'Node.js', 'React', 'FastAPI', 'Bun', 'Product Engineering'].map((item) => (
+          {['TypeScript', 'Node.js', 'React', 'FastAPI', 'Bun', 'Engineering'].map((item) => (
             <span
               key={item}
               className="glass"

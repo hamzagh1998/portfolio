@@ -3,7 +3,7 @@ import React from 'react';
 const experiences = [
   {
     company: 'CareerBoosts',
-    role: 'Full-Stack / Product Engineer',
+    role: 'Full-Stack / Engineer',
     period: '2022 - Present',
     description:
       'Built core workflows for a recruitment and performance-assessment SaaS platform using Next.js and FastAPI, integrated enterprise assessment providers (Hogan, Pearson, Saville), cut manual configuration errors by 90%, and helped expand platform reach by 40%.',
