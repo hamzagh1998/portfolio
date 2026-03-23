@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             lineHeight: 1.8,
           }}
         >
-          I work across backend, product, integrations, and user-facing delivery — with a strong bias toward shipping useful features, reducing manual operations, and keeping systems maintainable.
+          I work across backend, product, integrations, and user-facing delivery — with a strong bias toward shipping useful features, reducing manual operations, and delivering reliable systems with measurable business impact.
         </p>
         <p
           style={{
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             maxWidth: '700px',
           }}
         >
-          Strongest in TypeScript, Node.js, React, Next.js, FastAPI, Bun, APIs, internal tooling, SaaS workflows, and production use of AI where it improves real product behavior.
+          Strongest in TypeScript, Node.js, Python, React, Next.js, FastAPI, Bun, APIs, internal tooling, SaaS workflows, and production use of AI where it improves real workflows.
         </p>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '2rem' }}>
           {['TypeScript', 'Node.js', 'React', 'FastAPI', 'Bun', 'Engineering'].map((item) => (

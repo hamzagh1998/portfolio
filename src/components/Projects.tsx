@@ -5,8 +5,8 @@ const projects = [
     title: 'Langonova',
     type: 'Product',
     description:
-      'A language-learning workstation that combines AI tutoring, content mining, and long-term retention workflows in one product-grade system.',
-    tech: ['React', 'TypeScript', 'Bun', 'Hono', 'MongoDB', 'GPT-4o'],
+      'A language-learning workstation built as a unified command center for reading, mining, SRS, and AI tutoring.',
+    tech: ['React', 'TypeScript', 'Bun', 'Hono', 'MongoDB', 'GPT-4o', 'TanStack Query'],
     link: 'https://langonova.app/',
   },
   {
